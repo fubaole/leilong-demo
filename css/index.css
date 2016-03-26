@@ -1,0 +1,73 @@
+
+/*正文左边内容*/
+.main .main_left {
+    width: 810px;
+}
+.main .main_left .main_Ltitle {
+    height: 70px;
+    width: 100%;
+}
+.main .main_left ul li {
+    float: left;
+    width: 250px;
+    height: 234px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-left: -1px;
+}
+.main .main_left ul li span a{
+    display: block;
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+}
+.main .main_left ul li span a:hover {
+    background-color: #ccc;
+}
+
+/*正文右边内容*/
+.main .main_right .main_Rtitle {
+    width: 260px;
+    height: 40px;
+    padding: 0 15px;
+    font:700 14px/40px 'Microsoft Yahei';
+    color:#FF9E26;
+    background-color: #454545;
+    margin: 12px 0;
+}
+.main .main_right ul {
+    width: 260px;
+    padding:0 15px;
+}
+.main .main_right ul li {
+    width: 100%;
+    font:400 12px/30px 'Microsoft Yahei';
+}
+.main .main_right .self {
+    font:700 14px/20px 'Microsoft Yahei';
+}
+.main .main_right .main_info {
+    padding:0 15px;
+    width: 260px;
+    font:400 12px/25px 'Microsoft Yahei';
+}
+.main .main_right .main_last li {
+    list-style: square;
+    font:400 12px/24px 'Microsoft Yahei';
+}
+.main .main_right .main_last li a {
+    color:#888;
+}
+.main .main_right .main_last li a:hover {
+    color:#333;
+}
+
+
+/*友情链接*/
+.friendLink {
+    margin:auto;
+    width:100%;
+    margin-bottom:20px ;
+    margin-top:20px ;
+}
